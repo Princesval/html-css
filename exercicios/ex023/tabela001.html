@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 350px;
+            height: 350px;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .a1 {
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .e1 {
+            text-align: right;
+            vertical-align: top;
+        }
+
+        .a5 {
+            text-align: left;
+            vertical-align: bottom;
+        }
+
+        .e5 {
+            text-align: right;
+            vertical-align: bottom;
+        }
+
+        .esquerda {
+            text-align: left;
+        }
+
+        .direita {
+            text-align: right;
+        }
+
+        .top {
+            vertical-align: top;
+        }
+
+        .bottom {
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!-- 
+        Table 
+            table row - tr
+                table header - th
+                table data - td
+     -->
+    <table>
+        <tr>
+            <td class="a1">A1</td>
+            <td class="top">B1</td>
+            <td class="top">C1</td>
+            <td class="top">D1</td>
+            <td class="e1">E1</td>
+        </tr>
+        <tr>
+            <td class="esquerda
+            ">A2</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+            <td class="direita">E2</td>
+        </tr>
+        <tr>
+            <td class="esquerda
+            ">A3</td>
+            <td>B3</td>
+            <td>C3</td>
+            <td>D3</td>
+            <td class="direita">E3</td>
+        </tr>
+        <tr>
+            <td class="esquerda">A4</td>
+            <td>B4</td>
+            <td>C4</td>
+            <td>D4</td>
+            <td class="direita">E4</td>
+        </tr>
+        <tr>
+            <td class="a5">A5</td>
+            <td class="bottom">B5</td>
+            <td class="bottom">C5</td>
+            <td class="bottom">D5</td>
+            <td class="e5">E5</td>
+        </tr>
+    </table>
+</body>
+</html>
